@@ -1,0 +1,6 @@
+...
+1 StaticMesh(s) | 0 SkeletalMesh(s) | 0 Animation(s) | 0 Camera(s) | 0 Other(s)
+
+[StaticMesh] -> "SM_Frontbumper_Lower.fbx" exported in 0.03125 sec.
+D:\Users\etudiant\Documents\GitHub\REKT_Assets\Car\ExportedFbx\StaticMesh\
+
