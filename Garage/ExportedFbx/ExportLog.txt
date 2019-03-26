@@ -1,0 +1,12 @@
+...
+3 StaticMesh(s) | 0 SkeletalMesh(s) | 0 Animation(s) | 0 Camera(s) | 0 Other(s)
+
+[StaticMesh] -> "SM_Armature.fbx" exported in 0.015625 sec.
+D:\Users\etudiant\Documents\GitHub\REKT_Assets\Garage\ExportedFbx\StaticMesh\
+
+[StaticMesh] -> "SM_Window_Structure.fbx" exported in 0.0 sec.
+D:\Users\etudiant\Documents\GitHub\REKT_Assets\Garage\ExportedFbx\StaticMesh\
+
+[StaticMesh] -> "SM_Walls.fbx" exported in 0.015625 sec.
+D:\Users\etudiant\Documents\GitHub\REKT_Assets\Garage\ExportedFbx\StaticMesh\
+
