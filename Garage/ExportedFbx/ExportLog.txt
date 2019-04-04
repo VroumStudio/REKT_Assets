@@ -1,13 +1,16 @@
 ...
-6 StaticMesh(s) | 0 SkeletalMesh(s) | 0 Animation(s) | 0 Camera(s) | 0 Other(s)
+7 StaticMesh(s) | 0 SkeletalMesh(s) | 0 Animation(s) | 0 Camera(s) | 0 Other(s)
 
-[StaticMesh] -> "SM_Rolling_Drawer.fbx" exported in 0.0 sec.
+[StaticMesh] -> "SM_Rolling_Drawer.fbx" exported in 0.015625 sec.
 D:\Users\etudiant\Documents\GitHub\REKT_Assets\Garage\ExportedFbx\StaticMesh\
 
-[StaticMesh] -> "SM_Desk_Complex.fbx" exported in 0.015625 sec.
+[StaticMesh] -> "SM_Desk_Complex.fbx" exported in 0.0 sec.
 D:\Users\etudiant\Documents\GitHub\REKT_Assets\Garage\ExportedFbx\StaticMesh\
 
-[StaticMesh] -> "SM_Workstation.fbx" exported in 0.0 sec.
+[StaticMesh] -> "SM_CeilingPipes.fbx" exported in 0.03125 sec.
+D:\Users\etudiant\Documents\GitHub\REKT_Assets\Garage\ExportedFbx\StaticMesh\
+
+[StaticMesh] -> "SM_Workstation.fbx" exported in 0.015625 sec.
 D:\Users\etudiant\Documents\GitHub\REKT_Assets\Garage\ExportedFbx\StaticMesh\
 
 [StaticMesh] -> "SM_Armature.fbx" exported in 0.015625 sec.

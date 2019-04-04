@@ -79,6 +79,29 @@ except:
 
 
 
+################[ Import CeilingPipes as StaticMesh type ]################
+fbx_factory = PyFbxFactory()
+fbx_factory.ImportUI.bImportMaterials = True
+fbx_factory.ImportUI.bImportTextures = False
+fbx_factory.ImportUI.TextureImportData.MaterialSearchLocation = EMaterialSearchLocation.Local
+fbx_factory.ImportUI.StaticMeshImportData.bCombineMeshes = True
+fbx_factory.ImportUI.StaticMeshImportData.bAutoGenerateCollision = True
+FbxLoc = os.path.join(r'D:\Users\etudiant\Documents\GitHub\REKT_Assets\Garage\ExportedFbx\StaticMesh\SM_CeilingPipes.fbx')
+AdditionalParameterLoc = os.path.join(r'D:\Users\etudiant\Documents\GitHub\REKT_Assets\Garage\ExportedFbx\StaticMesh\SM_CeilingPipes_AdditionalParameter.ini')
+AssetImportLocation = (os.path.join(UnrealImportLocation, r'').replace('\\','/')).rstrip('/')
+try:
+	asset = fbx_factory.factory_import_object(FbxLoc, AssetImportLocation)
+	lods_to_add = GetOptionByIniFile(AdditionalParameterLoc, 'LevelOfDetail')
+	for x, lod in enumerate(lods_to_add):
+		asset.static_mesh_import_lod(lod, x+1)
+	asset.save_package()
+	asset.post_edit_change()
+	ImportedAsset.append(asset)
+except:
+	ImportedAsset.append('Import error for asset named "CeilingPipes" ')
+
+
+
 ################[ Import Workstation as StaticMesh type ]################
 fbx_factory = PyFbxFactory()
 fbx_factory.ImportUI.bImportMaterials = True
